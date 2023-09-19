@@ -19,7 +19,6 @@ public class Task {
 	private LocalDate dueDate;
 	
 	public Task() {
-		throw new UnsupportedOperationException();
 	}
 
 	@Id
