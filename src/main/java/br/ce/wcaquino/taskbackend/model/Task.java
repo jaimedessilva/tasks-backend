@@ -18,7 +18,9 @@ public class Task {
 	@Column(nullable = false)
 	private LocalDate dueDate;
 	
-	public Task() {}
+	public Task() {
+		throw new UnsupportedOperationException();
+	}
 
 	@Id
 	@GeneratedValue
